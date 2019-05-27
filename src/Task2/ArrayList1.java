@@ -1,6 +1,5 @@
 package Task2;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -16,7 +15,6 @@ public class ArrayList1 {
         System.out.println(Arrays.toString(doubArray));
         System.out.println(Arrays.toString(strArray));
     }
-
     private static <T> ArrayList arrayToArrayList(T[] array) {
         return new ArrayList<>(Arrays.asList(array));
     }
