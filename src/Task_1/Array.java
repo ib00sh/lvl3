@@ -12,7 +12,6 @@ public class Array {
         showResult(intMass,4,9);
         showResult(doubMass,5,7);
         showResult(strMass,2,8);
-
     }
 
 
@@ -26,7 +25,7 @@ public class Array {
         System.out.println(Arrays.toString(mass));
         sort(mass, firstEl, secondEl);
         System.out.println("Меняем местам элемент " + (firstEl+1) + " с элементом " + (secondEl + 1));
-        System.out.println("new");
+        System.out.println("Массив с измененнысм элементами");
         System.out.println(Arrays.toString(mass));
         System.out.println("______________");
 
